@@ -2,3 +2,5 @@ development:
   password: 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
   theme_id: "124288598183"
   store: tritonweb.myshopify.com
+  ignore_files:
+   - config/settings_data.json
