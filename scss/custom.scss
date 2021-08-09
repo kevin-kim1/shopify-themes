@@ -1,5 +1,6 @@
 $color-red: red;
 
-header, body {
+.header-wrapper, .header,
+body {
     background-color: $color-red;
 }
