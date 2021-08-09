@@ -17,9 +17,28 @@
   },
   "homepage": "https://github.com/kevin-kim1/shopify-themes#readme",
   "devDependencies": {
-    "gulp": "^4.0.2"
+    "@babel/core": "^7.15.0",
+    "@babel/preset-env": "^7.15.0",
+    "babelify": "^10.0.0",
+    "browser-sync": "^2.27.5",
+    "browserify": "^17.0.0",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^8.0.0",
+    "gulp-plumber": "^1.2.1",
+    "gulp-sass": "^5.0.0",
+    "gulp-strip-debug": "^4.0.0",
+    "node-sass": "^6.0.1",
+    "sass": "^1.37.5",
+    "vinyl-source-stream": "^2.0.0"
   },
   "dependencies": {
-    "gulp-sass": "^5.0.0"
+    "@shopify/themekit": "^1.1.9",
+    "gulp-clean-css": "^4.3.0",
+    "shopify-cli": "^1.0.11"
+  },
+  "babel": {
+    "presets": [
+      "@babel/preset-env"
+    ]
   }
 }
